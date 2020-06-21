@@ -1,0 +1,1929 @@
+body {
+    overflow-x: hidden;
+}
+body,
+html { height: 100%;}
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus {background-color: transparent;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Muli', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+font-weight: 800;
+font-size: 55px;
+color: #333333;
+}
+h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 44px;
+color: #333333;
+line-height: 38px; 
+}
+h3{
+    font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.textCentre{
+    text-align: center;
+}
+.lineHeight38{
+    line-height: 38px;
+}
+.navbar-fixed-top{
+    min-height: 70px;
+    background-color: white;
+}
+.inline{
+    display: inline;
+}
+.noMargin{
+    margin: 0px !important;
+}
+.mr25{
+    margin-right: 25px;
+}
+.ml170{
+    margin-left: 170px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mr15{
+    margin-right: 15px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.ml15{
+    margin-left: 15px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt25{
+    margin-top: 25px;
+}
+.mb25{
+    margin-bottom: 25px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mr30{
+    margin-right: 30px !important;
+}
+.mt35{
+    margin-top: 35px;
+}
+.mb-30{
+    margin-bottom: -30px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.mt45{
+    margin-top: 45px;
+}
+.mb45{
+    margin-bottom: 45px;
+}
+.ml45{
+    margin-left: 45px;
+}
+.mt50{
+    margin-top: 50px;
+}
+.mb50{
+    margin-bottom: 50px;
+}
+.mt60{
+    margin-top: 60px !important;
+}
+.ml-60{
+    margin-left: -60px
+}
+.ml60{
+    margin-left: 60px;
+}
+.mb60{
+    margin-bottom: 60px !important;
+}
+.ml75{
+    margin-left: 75px;
+}
+.mt80{
+    margin-top: 80px !important;
+}
+.mt90{
+    margin-top: 90px;
+}
+.ml90{
+    margin-left: 90px;   
+}
+.mb90{
+    margin-bottom: 90px;
+}
+.ml-120{
+    margin-left: -120px;
+}
+.ml-165{
+    margin-left: -165px;
+}
+.ml120{
+    margin-left: 120px;
+}
+.mt140{
+    margin-top: 140px;
+}
+.mt150{
+    margin-top: 150px;
+}
+.mb150{
+    margin-bottom: 150px;
+}
+.mt160{
+    margin-top: 160px;
+}
+.noPadding{
+    padding: 0px !important;
+}
+.p32{
+    padding: 32px;
+}
+.pd15{
+    padding-top: 15px !important;
+}
+.pt20{
+    padding-top: 20px !important;
+}
+.pt30{
+    padding-top: 30px !important;
+}
+.pb30{
+    padding-bottom: 30px !important;
+}
+.pb40{
+    padding-bottom: 40px !important;
+}
+.pt38{
+padding-top: 38px !important;
+}
+.pb38{
+    padding-bottom: 38px !important;
+}
+.pb90{
+    padding-bottom: 90px;
+}
+.pd40{
+    padding-right: 40px;
+}
+.mainWidth{
+    max-width:940px;
+}
+.colorWhite{
+    color: white;
+}
+.backgroundBlue{
+    background: linear-gradient(112.6deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
+}
+.backgroundWhite{
+    background-color: white;
+}
+.textCenter{
+    text-align: center;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.textColor{
+    color: rgba(51, 51, 51, 0.6) !important;
+}
+.fs34{
+ font-size: 34px;   
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+/*-------------------------------*/
+/*     Topr nav styles        */
+/*-------------------------------*/
+
+.logoNav li a{
+    padding-bottom: 0px;
+}
+.navbar-right{
+        margin-right: 45px;
+}
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+
+/* width */
+.sidenav::-webkit-scrollbar {
+  display: none !important;
+}
+.sidenav {
+    overflow-y: scroll;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  right:0;
+  background: #FFFFFF;
+box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.25);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenavhead{
+    pointer-events: none; 
+    position: absolute;
+    top: 10px;
+    font-weight: 600;
+font-size: 14px !important;
+line-height: 22px  !important;
+color: rgba(51, 51, 51, 0.6)  !important;
+}
+
+.sidenav a {
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+line-height: 25px;
+  color: #333333;
+  display: block;
+  transition: 0.3s;
+    font-family: 'Muli';
+    font-style: normal;
+font-weight: bold;
+}
+.sidenav a span{
+    float: right;
+    background: #3E41BF;
+    border-radius: 2px;
+    font-size: 8px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+  margin-left: 50px;
+    color: rgba(51, 51, 51, 0.8);
+}
+.sidenav hr{
+    margin: -5px 30px 6px 30px;
+    border: 1px solid rgba(51, 51, 51, 0.8);
+}
+.sidenavNote{
+    font-family: Lato !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 18px !important;
+    color: #333333 !important;
+    
+}
+.sidenavHline{
+    margin: 8px 32px !important;
+}
+.sidenavdemoBtn{
+    
+    font-family: Lato;
+font-weight: bold;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+        font-size: 16px;
+    width: 310px;
+    height: 56px;
+    margin-left: 32px;
+    margin-top: 10px;
+    background: linear-gradient(110.63deg, #AD28FF -16.37%, #463DFF 63.57%, #3E41BF 139.2%);
+    border-radius: 4px;
+    color: white;
+}
+.sidenavContent{
+    display: none;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navAndriod{
+    display: inline !important; 
+    padding-left: 23px;
+}
+.navApple{
+    display: inline !important;
+    padding-left:0px !important;
+}
+/*-------------------------------*/
+/*       Hamburger-Cross         */
+/*-------------------------------*/
+
+.hamburger {
+  position: fixed;
+  top: 20px;  
+  z-index: 999;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+}
+.hamburger:hover,
+.hamburger:focus,
+.hamburger:active {
+  outline: none;
+    cursor: pointer;
+}
+
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom{
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+.hamburger.is-closed .hamb-top,
+.hamburger.is-closed .hamb-middle,
+.hamburger.is-closed .hamb-bottom {
+  background-color: #1a1a1a;
+}
+.hamburger.is-closed .hamb-top { 
+  top: 7px; 
+  -webkit-transition: all .35s ease-in-out;
+}
+.hamburger.is-closed .hamb-middle {
+  top: 50%;
+  margin-top: -2px;
+}
+.hamburger.is-closed .hamb-bottom {
+  bottom: 9px;  
+  -webkit-transition: all .35s ease-in-out;
+}
+
+.hamb-menu-top{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-size: 11px;
+    margin-bottom: 13px;
+}
+
+/*-------------------------------*/
+/*           landing page         */
+/*-------------------------------*/
+
+.landingSecOne{
+            max-width: 940px;
+    margin-top: 85px;
+}
+
+.imgA1 {
+  position: absolute;
+        top: 200px;
+    cursor: pointer;
+}
+
+.logoNav{
+    float: right;
+    position: fixed;
+    right: 120px;
+}
+.logoNav > ul > li> a{
+    padding: inherit; 
+    margin-right: 37px;
+}
+.sidebar-brand > a{
+    padding-bottom:5px;
+}
+
+.mainIntro{ 
+    font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
+}
+.getDemoBtn{
+    font-family: Lato;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    width: 230px;
+    height: 56px;
+    background: linear-gradient(105.6deg, #AD28FF -16.37%, #463DFF 63.57%, #3E41BF 139.2%);
+    border-radius: 4px;
+}
+.introVideoRemove{
+    display: none;
+    transition        : all 3s ease;
+  -webkit-transition: all 3s ease;
+}
+.introVideo{
+        width: 83%;
+    position: absolute;
+        top: 100px;
+    left: 115px;
+    z-index: 1;
+}
+.videoCloseBtn{
+        border: none;
+    background: transparent;
+    font-size: x-large;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    left: 110px;
+}
+.facts{
+    width: 100%;
+min-height: 170px;
+    background: #F6EFFF;
+    margin-bottom: 72px;
+}
+.facts p{
+    font-size: 20px;
+    line-height: 30px; 
+    margin-top: 20px;
+}
+#landingSecTwo h2{
+    text-align: center;
+    margin-bottom: 35px
+}
+
+.landingSecTwo p{
+   font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
+}
+.landingSecTwo a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
+    color: #463DFF;
+}
+.landingSecThree h2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.testimonialHeight{
+    min-height: 230px;
+}
+.testimonialsCarousel img{
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.carousel-indicators .active{
+        background-color: #463DFF;
+}
+.carousel-indicators li{
+    border-color: #463DFF;
+}
+.fa-quote-left{
+    opacity: 0.1;
+}
+.fa-quote-right{
+    opacity: 0.1;
+    position: relative;
+    top: 40px; 
+    left: 112px;
+    transform: rotate(180deg) scaleX(-1);
+}
+.fa-quote-left{
+    position: relative;
+    bottom: 40px;right: 20px
+}
+.item h4{
+    top: 155px;
+    position: absolute;
+    left: 53px;
+    font-style: italic;
+    font-size: 16px;
+}
+.item h5{
+    position: absolute;
+    left: 18px;
+    top: 180px;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.item p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.9;
+    padding: 35px;
+}
+
+.testimonials{
+    width: 100%;
+min-height: 324px;
+    background: linear-gradient(114.27deg, #B100FF -8.03%, #463DFF 41.12%, #3E41BF 102.57%);
+}
+.footer{
+    width: 100%;
+    min-height: 616px;
+    background: linear-gradient(118.47deg, #1E80C4 -24.25%, #B100FF -24.24%, #463DFF 54.83%, #3E41BF 133.04%);
+}
+.footerLogo{
+    margin-left: -13px;
+}
+.footerMobile h5{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footerUfaber{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerMobile p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footerMobile a{
+    color: #FFFFFF;
+}
+.footerDownload p{
+    font-weight: bold;font-size: 16px;line-height: 24px;color: rgba(255, 255, 255, 0.8);
+}
+.socialLinks a{
+    color: white;
+    margin-right: 25px
+}
+/*-------------------------------*/
+/*           FAQ'S        */
+/*-------------------------------*/
+
+.questions h2{
+    color: #7522FF;
+    margin-top: 40px;
+    text-align: center;
+}
+.questions p{
+        margin-top: 10px;
+}
+.questionsMain{
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+        margin: 40px 3px;
+    padding: 28px 0px;
+    border: 0.5px solid #EADDFF;
+}
+.questionsHead h5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #7522FF;
+}
+.questionsHead img{
+    margin-top: -10px;
+    margin-right: 10px
+}
+.questionsPlus{
+    font-size: 16px;
+line-height: 24px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+color: #333333;
+    text-decoration: none;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+.questionsPlus:before {
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+.questionsPlus.collapsed:before {
+    content: '\002B';
+}
+.panel-body{
+    border-top: 0px !important;
+    
+}
+.outerPanel{
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    margin-bottom: 40px !important;
+}
+.questionsPanelDes{
+    margin: 0px 100px;
+}
+.questionsDescription{
+    font-size: 16px;
+line-height: 29px;
+    margin-left: 25px;
+color: rgba(0, 0, 0, 0.6);
+}
+.greyBackground{
+    background: #F6EFFF !important;
+}
+.liteGreyBackground{
+    background: #FAF6FF;
+}
+.litePinkBackground{
+    background:rgba(234,200,255,0.2);
+}
+.contact h3{
+    font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+color: #333333;
+}
+.contact p{
+    font-size: 16px;
+line-height: 24px;
+color: rgba(51, 51, 51, 0.6);
+}
+/*-------------------------------*/
+/*           scholarship       */
+/*-------------------------------*/
+
+.scholarshipSecTwo h2{
+text-align: center;
+}
+.scholarshipSecTwo h3{
+    text-align: center;
+    font-size: 40px;
+    color: #3E41BF;
+}
+.scholarshipSecTwo p{
+    font-size: 14px;
+line-height: 21px;
+text-align: center;
+}
+.scholarshipSecFour h2{
+text-align: center;
+}
+
+
+/*-------------------------------*/
+/*   Results and testimonials    */
+/*-------------------------------*/
+
+
+.resultSecOne p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
+}
+.resultInnerCarousel img{
+    width: 988px;
+    height: 416px !important;
+}
+.resultCarouselControls{
+       
+    border-radius: 4px;
+    height: 48px;
+    top: 200px;
+    background: white;
+    left: 25px;
+    width: 48px;
+    color: black;
+    opacity: 1;
+}
+.resultCarouselControls.left{
+     background-image: none;
+}
+.resultCarouselControls .glyphicon-chevron-left, .resultCarouselControls .glyphicon-chevron-right{
+        width: 10px;
+    height: 10px;
+    margin-top: -12px;
+    font-size: 20px;
+}
+.resultCarouselControls .glyphicon-chevron-right{
+        margin-right: 0px;
+}
+.resultCarouselControls.right{
+    right:20px;
+    background-image: none;
+}
+.resultQuoteRight{
+    left: 155px;
+}
+.resultTestimonial h2{
+    text-align: center;
+}
+.resultTestimonialBox{
+        text-align: center;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    border-radius: 6px;
+    padding: 45px 20px 15px 20px;
+    max-width: 296px;
+}
+.resultTestimonialBox h3{
+        font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.resultTestimonialBox p{
+        font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.6);
+}
+.resultTestimonialImage{
+    position: absolute;
+    bottom: 170px;
+    left: 90px;
+}
+.resultTestimonialImage img{
+    border-radius: 50%;
+}
+/*-------------------------------*/
+/*         About us              */
+/*-------------------------------*/
+.aboutSecOne img{
+    width: 100%;
+    max-height: 320px;
+}
+.aboutUpsc{
+    padding: 32px;
+}
+.aboutUpsc h2{
+    font-size: 30px;
+line-height: 47px;
+}
+.aboutUpsc h2, .aboutPhilosophy h2{
+    text-align: center;
+}
+.aboutUpsc p{
+    font-size: 16px;
+line-height: 29px;
+color: rgba(51, 51, 51, 0.6);
+}
+.aboutPhilosophy h3{
+    font-weight: 600;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+}
+.aboutPhilosophy p{
+    font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team{
+        font-size: 16px;
+    line-height: 29px;
+    color: rgba(51, 51, 51, 0.6);
+    margin-bottom: 100px;
+    text-align: center;
+}
+.teamBox h4{
+    font-size: 14px;
+line-height: 21px;
+text-align: center;
+    font-weight: bold
+}
+.teamBox h5{
+    font-size: 14px;
+line-height: 25px;
+text-align: center;
+color: rgba(51, 51, 51, 0.6);
+}
+.teamBox p{
+    font-size: 12px;
+line-height: 22px;
+text-align: center;
+color: rgba(51, 51, 51, 0.6);
+}
+.teamBox .socialLinks a{
+    color: #337ab7;
+}
+
+
+
+
+.guruFeatures p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px; 
+    color: rgba(51, 51, 51, 0.6);
+}
+.guruWorking p{
+    font-size: 16px;
+line-height: 29px;
+}
+.guruSubtext{
+    font-size: 8px !important;
+line-height: 12px !important;
+color: rgba(51, 51, 51, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navLogo {
+    margin-top: 15px;
+}
+
+.videoImg {
+        margin-left: -255px;
+    margin-top: -85px;
+    filter: grayscale(100%);
+}
+
+.guruIntro1 {
+    font-weight: normal;
+font-size: 25px;
+line-height: 45px;
+}
+
+.guruIntro {
+    font-size: 20px;
+line-height: 36px;
+}
+
+.lineHeading h2 {
+        background-color: white;
+    margin: 0px 70px;
+}
+.lineHeading hr{
+        position: relative;
+    top: 48px;
+    z-index: -1;
+    border-color: black;
+    width: 78%;
+}
+
+.guruSectwo h2{
+    font-weight: 600;
+font-size: 32px;
+line-height: 50px;
+}
+
+.guruSectwo h3{
+    font-size: 45px;
+line-height: 67px;
+    font-weight: normal;
+}
+
+
+.guruDescription {
+    margin-left: 78px;
+    margin-top: 130px;
+}
+.guruDescription p{
+        padding-right: 45px;
+}
+
+
+.resultStats h4{
+    font-weight: 900;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #7522FF;
+}
+.resultStats p{
+    font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #333333;
+}
+
+.testimonialsDiv h2{
+    font-weight: 800;
+font-size: 32px;
+line-height: 50px;
+}
+
+.testimonialSubDiv {
+    background: #FFFFFF;
+border: 0.5px solid #F8F3FF;
+box-sizing: border-box;
+box-shadow: 1px 1px 8px #E6D7ED;
+        padding: 99px 25px;
+}
+.testimonialSubDiv p{
+   font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #000000; 
+}
+
+
+.testiImg {
+        border-radius: 50%;
+    border: 3px solid #7522FF;;
+}
+
+.testimonialPerson h5{
+    margin-top: 0px;
+    font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.testimonialPerson p{
+    font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.6);
+}
+
+
+
+.fullWidthTestimonial {
+    width: 88%;
+}
+
+.videoPageBackground {
+    background: url("../images/video2.png"); 
+    background-size: 97% 100%;
+     background-repeat: no-repeat;
+    margin-top: -66px;
+    padding-bottom: 150px;
+}
+
+.videos {
+    margin: 20px 180px;
+}
+
+.videoMenubtn {
+border-radius: 2px !important;
+        padding: 1px 11px !important;
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: rgba(51, 51, 51, 0.8);
+}
+.videos .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+       background-color: #7522FF !important;
+}
+
+.videosTabContent {
+        margin-left: 20px;
+    margin-right: 208px;
+}
+
+.pb60 {
+    padding-bottom: 60px
+}
+
+.pt45 {
+    padding-top: 45px;
+}
+.mobileDisplay {
+    display: none;
+}
+.mobileHorizontalLine{
+    display: none;
+}
+.webHide{
+    display: none;
+}
+
+.coursePannelHead h5{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.coursePannelHead{
+    padding: 25px 60px;
+}
+.courseTextPadding {
+    padding: 25px 35px;
+}
+.courseBtn {
+    border: 1px solid #B100FF;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #AA04FF;
+    margin-top: 20px; 
+    padding: 16px 42px;
+    margin-bottom: 10px;
+}
+.courseInnerText {
+    font-size: 18px;
+    padding-left: 15px;
+    opacity: 0.7;
+}
+.courseHelp {
+    box-shadow: 4px 4px 10px #E0D5F4;
+    border-radius: 25px; 
+    margin-bottom: 60px;
+    padding: 25px 30px;
+}
+.courseHelpImg{
+    margin-top: 15px;
+}
+.courseHelpText {
+    font-size: 23px; 
+    opacity: 0.6
+}
+.signupImg {
+    margin-bottom: 70px;
+    margin-left: -60px;
+    margin-top: -20px;
+}
+.mobilePlayBtn {
+    position: absolute;
+    top: 85px; 
+    left: 125px;
+    cursor: pointer;
+}
+.inceptionSecOne h1{
+    font-size: 65px;
+    line-height: 73px;
+}
+.inceptionSecOne p{
+    font-size: 21px;
+    line-height: 31px; 
+    color: #494949;
+    padding-right: 20px
+}
+.inceptionSelected h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inceptionSelected p{
+    font-size: 15px; line-height: 24px; opacity: 0.6
+}
+.inceptionSelected a{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.inceptionCovered h4{
+    opacity: 0.8;
+    font-size: 20px
+}
+.inceptionCoveredDiv{
+    box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.15);
+    margin: 10px 40px;
+}
+.inceptionCoveredinnerDiv{
+        padding: 10px 30px;
+}
+.inceptionCoveredinnerDiv p{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    border-bottom: 0.5px solid rgba(51, 51, 51, 0.2);
+    padding-bottom: 15px;
+}
+.inceptionCourseGet{
+    padding-bottom: 118px;
+}
+.inceptionCourseInnerGet{
+    padding: 8px;
+}
+.inceptionCourseInnerGet h4{
+    font-weight: bold;
+    font-size: 16px;
+}
+.inceptionCourseInnerGet p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.inceptionCourseInnerGet i{
+    color: #453EF7;
+    ;margin-right: 10px;
+}
+.inceptionEnroll{
+    background-color: #F4ECFD; color: white;
+}
+.enrollDiv{
+    padding-bottom: 45px; 
+    position: relative;
+    bottom: 75px;    
+    padding: 10px 40px;
+}
+.enrollDiv h4{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 25px 0px;
+}
+.enrollDate{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.enrollSeats{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.inceptionEnroll h2{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px
+}
+.enrollSelectProgram-1{
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+.enrollSelectProgram-2{
+    padding: 0px 60px;
+}
+.enrollSelectProgram h4{
+    font-size: 20px;
+}
+.enrollSelectProgram p{
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+.enrollSelectProgram h1{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 42px; 
+    color: white;
+}
+
+.enrollSelectProgram button{
+    color: white;
+    padding: 13px 50px;
+    font-size: 20px;
+}
+.enrollDemo h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+}
+.enrollDemo p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.6);
+}
+.enrollDemo button{
+    color: #7522FF;
+    font-size: 20px;
+    border-color: #7522FF;
+    background-color: transparent;
+    padding: 13px 37px;
+}
+.inceptionFindCourse-1{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: white;
+    margin-right: 25px;
+}
+
+.inceptionFindCourse-2{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: white;
+}
+.inceptionFindCourse h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inceptionFindCoursePara{
+    font-size: 18px;
+    padding-left: 15px; 
+    opacity: 0.7;
+}
+.paymentSecOne .paymentpara{
+    font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+color: #333333;
+}
+.paymentparaOne{
+    font-size: 13px !important;
+}
+.paymentSecOne p{
+    font-size: 14px;
+line-height: 25px;
+color: rgba(51, 51, 51, 0.6);
+}
+.paymentSpecialPara{
+    font-size: 10px !important;
+line-height: normal !important;
+}
+.paymentBtn{
+    width: 276px;
+        font-family: Lato;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    height: 56px;
+    background: linear-gradient(105.6deg, #AD28FF -16.37%, #463DFF 63.57%, #3E41BF 139.2%);
+    border-radius: 4px;
+}
+.paymentDiv-2 {
+    float: right;
+    width: 336px;
+    height: 567px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15);
+    border-radius: 4px;
+}
+.CourseImg img{
+    margin-left: -25px;
+    margin-top: -40px;
+}
+.CourseImg1 img{
+    margin-left: -13px;
+    margin-top: -70px;
+}
+.CourseImg2 img{
+    margin-left: -15px;
+    margin-top: -43px;
+}
+.CourseImg3 img{
+    margin-left: -7px;
+    margin-top: -47px;
+}
+.CourseImg3 button{
+    margin-top: 25px;
+}
+.CourseImg4 img, .CourseImg6 img {
+    margin-top: -70px;
+}
+.CourseImg4 button, .CourseImg5 button, .CourseImg6 button{
+    margin-top: 30px;
+}
+.CourseImg5 img{
+    margin-top: -60px
+}
+.CourseImg7 img{
+    margin-left: -50px;
+    margin-top: -25px;
+}
+.CourseImg7 button{
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.courseDescription{
+    font-size: 14px;
+line-height: 21px;
+}
+.optionalCourseInnerText{
+    font-size: 16px;
+line-height: normal;
+        padding-left: 15px;
+}
+.optionalCourseTextPadding{
+    padding: 25px 58px;
+}
+.career p{
+    font-size: 16px;
+line-height: 25px;
+color: #000000;
+}
+.career button{
+        width: 376px;
+    height: 64px;
+    border-radius: 32px;
+    font-size: 18px;
+line-height: 28px;
+}
+.testSeriesBtn{
+    width: 328px;
+    height: 72px;
+    font-weight: bold;
+font-size: 21px;
+line-height: normal;
+color: #7522FF;
+}
+/*-------------------------------*/
+/*         play video page       */
+/*-------------------------------*/
+.videoBackArrow{
+    font-size: 20px;
+}
+.playVideo{
+    display: block;
+    width: 100%;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.playVideoDescription{
+    font-size: 16px;
+    line-height: 26px;
+        padding: 15px 25px;
+    background-color: rgba(70,61,255,0.1)
+}
+.playVideoCarousel .item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: inherit;
+    text-align: left;
+    opacity: 1;
+    padding: 0px;
+}
+.playVideoCarousel .carousel-control{
+        top: 30%;
+    left: -50px;
+    border-radius: 0px;
+        background: white;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    color: black;
+}
+.playVideoCarousel .glyphicon{
+    font-size: 20px;
+    margin-left: -13px;
+}
+
+.playVideoCarousel .carousel-control.right{
+    right: 15px;
+    left: 101%;
+}
+/*-------------------------------*/
+/*         mobile Carousel       */
+/*-------------------------------*/
+
+
+.guruMobileCarousel h2 {
+	color: #333;
+	text-align: center;
+}
+
+.guruMobileCarousel .carousel {
+	margin: 50px auto;
+}
+.guruMobileCarousel .carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+
+.guruMobileCarousel .carousel .testimonial {
+	padding: 0px 0 10px;
+}
+.guruMobileCarousel .carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.guruMobileCarousel .carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.guruMobileCarousel .carousel .carousel-indicators {
+	bottom: -40px;
+}
+.guruMobileCarousel .carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.guruMobileCarousel .carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.guruMobileCarousel .carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.textBlack{
+    color:black !important;
+}
+.textBlue{
+    color: #463DFF !important;
+}
+.courseText{
+    font-size: 20px;
+    line-height: 31px; 
+    color: #494949;
+}
+
+
+
+
+/*-------------------------------*/
+/*           Media Query         */
+/*-------------------------------*/
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .mobile-Mt0{
+        margin-top: 0px;
+    }
+    .closeBtn{
+        left: 0px;
+    }
+    .introVideo{
+        width: 100%;
+        left: 0px;
+        height: 315px !important;
+    }
+    .videoCloseBtn{
+        left: 10px;
+    }
+    .navLogo{
+        width: 172px;
+        height: 28px;
+    }
+    .videoImg{
+        width: 338px;
+        height: 320px;
+    }
+    .videoImg{
+        margin-left: -10px;
+        margin-top: -35px;
+    }
+    .imgA1{
+        width: 77px;
+        height: 76px;
+        top: 117px;
+        left: 145px;
+    }
+    .mianMobileIntro{
+        display: none;
+    }
+    .mobileMarginNone{
+        margin: 0px;
+    }
+    .mobilePaddingNone{
+        padding: 0px !important;
+    }
+    .mobileMt5{
+        margin-top: 5px;
+    }
+    .mobileMt15{
+        margin-top: 15px;
+    }
+    .mobileMargin15{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .mobileMb15{
+        margin-bottom: 15px;
+    }
+    .mobileMt25{
+        margin-top: 25px !important;
+    }
+    .mobileMt-35{
+        margin-top: -35px;
+    }
+    .mobileMt35{
+        margin-top: 35px;
+    }
+    h1{
+        font-weight: 800 !important;
+        font-size: 21px !important;
+        line-height: 33px !important;
+        text-align: center;
+    }
+    h2{
+        font-weight: bold !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    h3{
+        font-size: 16px !important;
+        line-height: 24px !important;
+        text-align: center !important;
+    }
+    .landingMobileStats{
+        width: 37px;
+        height: 40px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .webDisplay{
+        display: none;
+    }
+    .mobileDisplay{
+        display: block;
+    }
+    .guruMobileh1{
+        font-weight: 800  !important;
+        font-size: 24px  !important;
+        line-height: 38px  !important;
+        text-align: center  !important;
+    }
+    .guruMobileText{
+        margin-top: 10px ;
+        font-size: 14px !important;
+        line-height: 25px !important;
+        text-align: center;
+    }
+    .mobileTextColor{
+        color: rgba(51, 51, 51, 0.6) !important;   
+    }
+    .mobileTextCentre{
+        text-align: center;
+    }
+    .mobileText{
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+    .mobileHorizontalLine{
+        border-color: black;
+        width: 9%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .testimonials{
+        height: 610px;
+    }
+    .landingmobile1{
+        width: 119px;
+        height: 288px;
+        margin-right: 0px !important;
+    }
+    .mobileStoreImg{
+        width: 70px;
+        height: 26px;
+    }
+    .fs34{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .mobileHide{
+        display: none;
+    }
+    .mobileShow{
+        display: block;
+    }
+    .mobileFloatRight{
+        float: right;
+        margin-right: 75px;
+    }
+    .lineHeading hr{
+        top: 35px;
+        width: 70%;
+    }
+    .mobilePl23{
+        padding-left: 23px;
+    }
+    .coursePannelHead{
+        padding: 25px 30px;
+    }
+    .coursePannelHead h5{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .courseTextPadding{
+        padding: 0px;
+        margin: 0px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .courseImg {
+        width: 132px;
+        height: 127px;
+    }
+    .courseBtn{
+        padding: 10px 26px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .courseInnerImg {
+    width: 16px;
+    height: 16px;
+    }
+    .courseInnerText{
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .courseHelpImg {
+        margin-top: 35px;
+    }
+    .courseHelpImg img{
+        width: 72px;
+        height: 57px;
+    }
+    .courseHelp{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px;
+    }
+    .courseHelpText{
+        font-size: 10px;
+    }
+    .scholarshipSecOne{
+        margin-top: 45px;
+    }
+    .scholarshipSecOne img{
+        margin-left: 50px;
+    }
+    .testimonialSecOne img{
+            margin-left: 35px;
+    }
+    .resultStats p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .testimonialSubDiv p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .testiImg{
+        width: 24px;
+        height: 24px;
+    }
+    .testimonialPerson h5{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .testimonialPerson p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .testimonialSubDiv{
+            padding: 25px 15px;
+    }
+    .questionsMain{
+        margin: 0px;
+    }
+    .mobilePaddding15{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .inceptionCovered h2{
+        padding: 15px 40px;
+    }
+    .inceptionCoveredinnerDiv p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .enrollDiv h4{
+        font-size: 12px;
+        line-height: 18px;  
+    }
+    .enrollDate{
+        font-size: 14px;
+        line-height: normal;
+    }
+    .enrollSeats{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .enrollSelectProgram-1{
+        border-right: 0px;
+    }
+    .enrollDiv{
+        padding: 10px 20px;
+    }
+    .enrollSelectProgram h4{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .enrollSelectProgram p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .enrollSelectProgram h1{
+        text-align: left;
+    }
+    .enrollSelectProgram-2{
+        padding: 0px 20px;
+    }
+    .mobileCarousel img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobileCarousel h4{
+        position: unset;
+    }
+    .mobileCarousel h5{
+        position: unset;
+    }
+    .paymentDiv-2{
+        float: left;
+        margin-left: 12px;
+    }
+    .videoPageBackground{
+        background: none;
+    }
+    .videos .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+        background-color: transparent !important;
+        color: inherit;
+    }
+    .videos .dropdown-menu{
+        min-width: 226px;
+    }
+    .optionalCourseTextPadding{
+        padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .optionalCourseInnerText{
+        font-weight: 500;
+    font-size: 10px;
+    }
+    .CourseImg img, .CourseImg1 img, .CourseImg2 img, .CourseImg3 img, .CourseImg4 img, .CourseImg5 img, .CourseImg6 img, .CourseImg7 img {
+    margin-left: 0px;
+        margin-top: 0px;
+    }
+    .career button{
+        width: 230px;
+        height: 56px;
+    }
+    
+    
+    
+    
+    
+    
+    .navbar-header{
+        margin-left: 41px !important;
+        margin-right: -36px;
+    }
+    .getDemoBtn{
+        margin: 10px 60px;
+    }
+    .introDivMobile{
+            margin-top: -80px;
+    }
+    .facts{
+            margin-top: 56px;
+    }
+    .facts p{
+        font-size: 12px;
+line-height: 24px;
+    }
+    #landingSecTwo h2{
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: -40px;
+    }
+    #landingSecTwo img{
+        width: 330px
+    }
+    
+    
+    .resultQuoteRight{
+        left:30px;
+    }
+    .testimonialImg{
+        margin-left: 95px;
+            margin-bottom: 30px;
+    }
+    .item p{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .testimonials ol{
+        margin: 0px 0px -35px -105px;
+    }
+    .landing-quote-right{
+        left:30px;
+    }
+    #landingSecThree h2{
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .appstoreMobile{
+        margin-left: -13px;
+    }
+    .appstoreMobile img{
+        width: 150px;
+        height: 53px;
+    }
+    .faqSecOne img{
+        width: 250px;
+        height: 200px;
+            margin-left: 45px;
+    }
+    .questionsPanelDes{
+        margin: 0px;
+    }
+    .scholarshipSecOne button{
+            margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .resultChamp{
+        height: 655px;
+    }
+    .resultChamp h2{
+        margin-left: 0px !important;
+    }
+    .resultRestimonialGroup{
+        padding-left: 30px;
+    }
+    .resultTestimonialBox{
+        margin-bottom: 90px;
+    }
+    .resultDemoBtn{
+        margin: 0px;
+    }
+    
+    .aboutPhilosophy p{
+        text-align: center;
+    }
+    .team{
+        padding: 0px;
+    }
+    .guruMobile1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .guruImage img{
+        width: 330px;
+    }
+    .mobileNoPadding{
+        padding: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

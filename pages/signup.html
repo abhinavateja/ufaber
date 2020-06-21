@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    
+     <!--custom css-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!--Bootstrap CDN-->
+    
+   <!-- Muli & Lato Font CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <!--Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!--Jquery CDN  -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <!--custom js-->
+    <script src="../js/main.js"></script>
+
+</head>
+<body>
+    <!-- Top Navigation -->
+    
+    <nav class="navbar navbar-fixed-top"  w3-include-html="../pages/topnav.html">
+        
+    </nav>
+    
+    <!-- Top Navigation -->
+    
+    <!-- Side Navigation -->
+    
+    <div id="mySidenav" class="sidenav" w3-include-html="../pages/sidenav.html">
+        
+    </div>
+    
+    <!-- Side Navigation -->
+    
+    <!-- Page Content -->
+    <section>
+        <div class="container mainWidth landingSecOne">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <h1>Sign Up</h1>
+                    <p class="mainIntro">Already a member? Continue through <a href="../pages/signin.html"><strong>Sign In</strong></a> page.</p>
+                    <div class="col-md-12 signupImg"><img src="../images/signup.png" width="440px" height="410px"></div>
+                    
+                </div>
+                <div class="col-md-6 col-xs-12" style="box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.15); height: 567px; background: white; padding: 17px 45px;">
+                    <form action="/action_page.php">
+                      <div class="form-group" style="margin-bottom: 0px">
+                        <label for="name" style="font-size: 10px;color: rgba(51, 51, 51, 0.9);    position: relative;left: 18px;top: 14px;padding: 5px; margin: 0px;    background: white;">Name</label>
+                        <input type="text" class="form-control" placeholder="Your Name " style="padding: 25px;">
+                      </div>
+                      <div class="form-group" style="margin-bottom: 0px">
+                        <label for="number" style="font-size: 10px;color: rgba(51, 51, 51, 0.9); position: relative;left: 18px;top: 14px;padding: 5px; margin: 0px;    background: white;">Phone Number </label>
+                        <input type="text" class="form-control" placeholder="+91-98765-432-10" id="pwd" style="padding: 25px;">
+                      </div>
+                        <div class="form-group" style="margin-bottom: 0px">
+                        <label for="email" style="font-size: 10px;color: rgba(51, 51, 51, 0.9); position: relative;left: 18px;top: 14px;padding: 5px; margin: 0px;    background: white;">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder=" user@upscpathshala.com" style="padding: 25px;">
+                      </div>
+                        <div class="form-group"  style="margin-bottom: 0px">
+                        <label for="pwd" style="font-size: 10px;color: rgba(51, 51, 51, 0.9); position: relative;left: 18px;top: 14px;padding: 5px; margin: 0px;    background: white;">Password</label>
+                        <input type="password" class="form-control" placeholder="*********" id="email" style="padding: 25px;">
+                      </div>
+                        <div class="form-group" style="margin-bottom: 0px">
+                        <label for="pwd" style="font-size: 10px;color: rgba(51, 51, 51, 0.9); position: relative;left: 18px;top: 14px;padding: 5px; margin: 0px;    background: white;">Confirm Password</label>
+                        <input type="password" class="form-control" placeholder="*********" id="email" style="padding: 25px;">
+                      </div>
+                      <button type="button" onclick="window.location.href='../pages/payment.html'" class="btn btn-default getDemoBtn" style="display: block;margin-left: auto;margin-right: auto;margin-top: 25px">Sign Up</button>
+                        <p style="font-weight: 300;font-size: 14px;line-height: normal;color: rgba(51, 51, 51, 0.6); text-align: center;margin-top:20px">All the details are necessary to be filled.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="landingSecFive" class="backgroundBlue" style="height: 300px; width: 100%; position: relative;bottom: 92px;z-index: -1">
+        
+    </section>
+<!-- /#page-conten -->
+    
+<script>
+includeHTML();
+</script>
+</body>
+</html> 
